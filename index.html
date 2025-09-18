@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Lenis</title>
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/lenis@1.1.14/dist/lenis.css"
+    />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+      .grid > div {
+        grid-row: var(--r);
+        grid-column: var(--c);
+      }
+    </style>
+  </head>
+  <body class="font-['Gilroy']">
+    <div class="w-full bg-[#846C64]">
+      <div class="grid grid-cols-8 grid-rows-20 gap-2 overflow-hidden">
+        <div class="elem col-span-1 row-span-1" style="--r: 1; --c: 3">
+          <img src="./img/1.jpg" alt="Image 1" />
+        </div>
+        <div class="elem col-span-1 row-span-1" style="--r: 1; --c: 7">
+          <img src="./img/2.jpg" alt="Image 2" />
+        </div>
+        <div class="elem col-span-1 row-span-1" style="--r: 2; --c: 2">
+          <img src="./img/3.jpg" alt="Image 3" />
+        </div>
+        <div class="elem col-span-1 row-span-1" style="--r: 2; --c: 6">
+          <img src="./img/4.jpg" alt="Image 4" />
+        </div>
+        <div class="elem col-span-1 row-span-1" style="--r: 3; --c: 4">
+          <img src="./img/5.jpg" alt="Image 5" />
+        </div>
+        <div class="elem col-span-1 row-span-1" style="--r: 3; --c: 8">
+          <img src="./img/6.jpg" alt="Image 6" />
+        </div>
+        <div class="elem col-span-1 row-span-1" style="--r: 4; --c: 1">
+          <img src="./img/7.jpg" alt="Image 7" />
+        </div>
+        <div class="elem col-span-1 row-span-1" style="--r: 4; --c: 4">
+          <img src="./img/8.jpg" alt="Image 8" />
+        </div>
+        <div class="elem col-span-1 row-span-1" style="--r: 5; --c: 2">
+          <img src="./img/9.jpg" alt="Image 9" />
+        </div>
+        <div class="elem col-span-1 row-span-1" style="--r: 5; --c: 6">
+          <img src="./img/10.jpg" alt="Image 10" />
+        </div>
+        <div class="elem col-span-1 row-span-1" style="--r: 6; --c: 3">
+          <img src="./img/11.jpg" alt="Image 11" />
+        </div>
+        <div class="elem col-span-1 row-span-1" style="--r: 6; --c: 7">
+          <img src="./img/12.jpg" alt="Image 12" />
+        </div>
+        <div class="elem col-span-1 row-span-1" style="--r: 7; --c: 5">
+          <img src="./img/13.jpg" alt="Image 13" />
+        </div>
+        <div class="elem col-span-1 row-span-1" style="--r: 7; --c: 8">
+          <img src="./img/14.jpg" alt="Image 14" />
+        </div>
+        <div class="elem col-span-1 row-span-1" style="--r: 8; --c: 1">
+          <img src="./img/15.jpg" alt="Image 15" />
+        </div>
+        <div class="elem col-span-1 row-span-1" style="--r: 8; --c: 4">
+          <img src="./img/16.jpg" alt="Image 16" />
+        </div>
+        <div class="elem col-span-1 row-span-1" style="--r: 9; --c: 2">
+          <img src="./img/17.jpg" alt="Image 17" />
+        </div>
+        <div class="elem col-span-1 row-span-1" style="--r: 9; --c: 6">
+          <img src="./img/18.jpg" alt="Image 18" />
+        </div>
+        <div class="elem col-span-1 row-span-1" style="--r: 10; --c: 3">
+          <img src="./img/19.jpg" alt="Image 19" />
+        </div>
+        <div class="elem col-span-1 row-span-1" style="--r: 10; --c: 7">
+          <img src="./img/20.jpg" alt="Image 20" />
+        </div>
+      </div>
+      <div
+        class="fixed top-0 left-0 w-full h-full flex flex-col items-center justify-center"
+      >
+        <h1 class="text-8xl text-white font-medium bg-red-700">THOMAS VANCE<sup>&reg;</sup></h1>
+        <h2 class="text-3xl">並外れたファッション</h2>
+      </div>
+      <div
+        class="w-full h-screen bg-[#d1d1d1] mx-auto py-96 text-center relative z-[999] flex items-center justify-center"
+      >
+        <p class="text-3xl w-3/5 leading-[2.6rem] text-left">
+          From the dawn of civilisation onwards crowds have always undergone the
+          influence of illusions. It is to the creators of illusions that they
+          have raised more temples, statues, and altars than to any other class
+          of men.
+        </p>
+      </div>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+    <script src="https://unpkg.com/lenis@1.1.14/dist/lenis.min.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
